@@ -114,6 +114,7 @@
             </div>
         </div>
     </div>
+
 </template>
 
 <script>
@@ -139,7 +140,7 @@ export default {
         }
     },
     mounted() {
-        document.title = 'Checkout | Djackets'
+        document.title = 'Checkout | BUYMORE'
 
         this.cart = this.$store.state.cart
 
