@@ -52,7 +52,7 @@ export default {
             .then(response => {
                 this.category = response.data
 
-                document.title = this.category.name + ' | BUYMORE'
+                document.title = this.category.name + ' | Dorbass Optimum Global'
             })
             .catch(error => {
                 console.log(error)

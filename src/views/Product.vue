@@ -59,7 +59,7 @@ export default {
                 .get(`/api/v1/products/${category_slug}/${product_slug}`)
                 .then(response => {
                     this.product = response.data
-                    document.title = this.product.name + ' | BUYMORE'
+                    document.title = this.product.name + ' | DORBASS'
                 })
                 .catch(error => {
                     console.error(error)

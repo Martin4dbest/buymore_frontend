@@ -31,7 +31,7 @@ export default {
         }
     },
     mounted() {
-        document.title = 'Search | BUYMORE'
+        document.title = 'Search | DORBASS OPTIMUM GLOBAL'
 
         let uri = window.location.search.substring(1)
         let params = new URLSearchParams(uri)
